@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1A568F1D14E2B400A8F236 /* Animation02.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A568E1D14E2B400A8F236 /* Animation02.m */; };
+		8D1D51791D1A3652008DEDFC /* Animation03.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1D51781D1A3652008DEDFC /* Animation03.m */; };
 		8D5091341D0271CD00C275FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5091331D0271CD00C275FE /* main.m */; };
 		8D5091371D0271CD00C275FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5091361D0271CD00C275FE /* AppDelegate.m */; };
 		8D50913A1D0271CD00C275FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5091391D0271CD00C275FE /* ViewController.m */; };
 		8D50913D1D0271CD00C275FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D50913B1D0271CD00C275FE /* Main.storyboard */; };
 		8D50913F1D0271CD00C275FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D50913E1D0271CD00C275FE /* Assets.xcassets */; };
 		8D5091421D0271CD00C275FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5091401D0271CD00C275FE /* LaunchScreen.storyboard */; };
+		8D50914B1D02726800C275FE /* Animation01.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D50914A1D02726800C275FE /* Animation01.m */; };
+		8DF359AE1D1B729B00F6B4EF /* CGContextRefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF359AD1D1B729B00F6B4EF /* CGContextRefViewController.m */; };
+		8DF359B11D1B786100F6B4EF /* CGMutablePathRefViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF359B01D1B786100F6B4EF /* CGMutablePathRefViewController.m */; };
+		8DF359B41D1B788300F6B4EF /* Shape+BezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF359B31D1B788300F6B4EF /* Shape+BezierPathViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D1A568D1D14E2B400A8F236 /* Animation02.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation02.h; sourceTree = "<group>"; };
+		8D1A568E1D14E2B400A8F236 /* Animation02.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation02.m; sourceTree = "<group>"; };
+		8D1D51771D1A3652008DEDFC /* Animation03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation03.h; sourceTree = "<group>"; };
+		8D1D51781D1A3652008DEDFC /* Animation03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation03.m; sourceTree = "<group>"; };
 		8D50912F1D0271CD00C275FE /* AnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5091331D0271CD00C275FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D5091351D0271CD00C275FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,14 @@
 		8D50913E1D0271CD00C275FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5091411D0271CD00C275FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D5091431D0271CD00C275FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5091491D02726800C275FE /* Animation01.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation01.h; sourceTree = "<group>"; };
+		8D50914A1D02726800C275FE /* Animation01.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation01.m; sourceTree = "<group>"; };
+		8DF359AC1D1B729B00F6B4EF /* CGContextRefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGContextRefViewController.h; sourceTree = "<group>"; };
+		8DF359AD1D1B729B00F6B4EF /* CGContextRefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContextRefViewController.m; sourceTree = "<group>"; };
+		8DF359AF1D1B786100F6B4EF /* CGMutablePathRefViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGMutablePathRefViewController.h; sourceTree = "<group>"; };
+		8DF359B01D1B786100F6B4EF /* CGMutablePathRefViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGMutablePathRefViewController.m; sourceTree = "<group>"; };
+		8DF359B21D1B788300F6B4EF /* Shape+BezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Shape+BezierPathViewController.h"; sourceTree = "<group>"; };
+		8DF359B31D1B788300F6B4EF /* Shape+BezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Shape+BezierPathViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +80,18 @@
 				8D5091361D0271CD00C275FE /* AppDelegate.m */,
 				8D5091381D0271CD00C275FE /* ViewController.h */,
 				8D5091391D0271CD00C275FE /* ViewController.m */,
+				8DF359AC1D1B729B00F6B4EF /* CGContextRefViewController.h */,
+				8DF359AD1D1B729B00F6B4EF /* CGContextRefViewController.m */,
+				8DF359AF1D1B786100F6B4EF /* CGMutablePathRefViewController.h */,
+				8DF359B01D1B786100F6B4EF /* CGMutablePathRefViewController.m */,
+				8DF359B21D1B788300F6B4EF /* Shape+BezierPathViewController.h */,
+				8DF359B31D1B788300F6B4EF /* Shape+BezierPathViewController.m */,
+				8D5091491D02726800C275FE /* Animation01.h */,
+				8D50914A1D02726800C275FE /* Animation01.m */,
+				8D1A568D1D14E2B400A8F236 /* Animation02.h */,
+				8D1A568E1D14E2B400A8F236 /* Animation02.m */,
+				8D1D51771D1A3652008DEDFC /* Animation03.h */,
+				8D1D51781D1A3652008DEDFC /* Animation03.m */,
 				8D50913B1D0271CD00C275FE /* Main.storyboard */,
 				8D50913E1D0271CD00C275FE /* Assets.xcassets */,
 				8D5091401D0271CD00C275FE /* LaunchScreen.storyboard */,
@@ -149,9 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DF359B11D1B786100F6B4EF /* CGMutablePathRefViewController.m in Sources */,
+				8D1A568F1D14E2B400A8F236 /* Animation02.m in Sources */,
 				8D50913A1D0271CD00C275FE /* ViewController.m in Sources */,
+				8D50914B1D02726800C275FE /* Animation01.m in Sources */,
 				8D5091371D0271CD00C275FE /* AppDelegate.m in Sources */,
 				8D5091341D0271CD00C275FE /* main.m in Sources */,
+				8D1D51791D1A3652008DEDFC /* Animation03.m in Sources */,
+				8DF359AE1D1B729B00F6B4EF /* CGContextRefViewController.m in Sources */,
+				8DF359B41D1B788300F6B4EF /* Shape+BezierPathViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +336,7 @@
 				8D5091481D0271CD00C275FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
